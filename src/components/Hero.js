@@ -11,7 +11,6 @@ const Hero = () => {
     textAlign: 'center',
   };
   const insideStyles = {
-    background: 'white',
     padding: 20,
     position: 'absolute',
     top: '50%',
@@ -24,7 +23,7 @@ const Hero = () => {
     <div>
       <Parallax bgImage={image1} strength={500}>
         <div style={{ height: 500 }}>
-          <div style={insideStyles}>HTML inside the parallax</div>
+          <div style={insideStyles}></div>
         </div>
       </Parallax>
     </div>

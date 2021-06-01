@@ -1,0 +1,62 @@
+import React from 'react';
+
+const CarState = () => {
+  return [
+    {
+      make: 'DMC DeLorean',
+      mainImg: dmc,
+      secImg: dmc2,
+      url: '/delorean',
+      model: 'v8',
+      year: '1985',
+      previousOwner: '1',
+      doors: '2 Gull-wing doors',
+      fuel: 'plutonium',
+      body: '2-door coupé',
+      colour: 'Grey',
+      description: [
+        {
+          info: 'This Car can travel back in time',
+        },
+      ],
+    },
+    {
+      make: 'Bat Mobile',
+      mainImg: dmc,
+      secImg: dmc2,
+      url: '/bat',
+      model: 'v8',
+      year: '1989',
+      previousOwner: '1',
+      doors: '1 sliding door',
+      fuel: 'Jet Fuel',
+      body: '2-door coupé',
+      colour: 'black',
+      description: [
+        {
+          info: 'Its the Bat Mobile!',
+        },
+      ],
+    },
+    {
+      make: 'The Pursuit Special',
+      mainImg: dmc,
+      secImg: dmc2,
+      url: '/mad',
+      model: 'v8',
+      year: '1989',
+      previousOwner: '1',
+      doors: '2 Doors',
+      fuel: 'petrol',
+      body: 'Interceptor',
+      colour: 'black',
+      description: [
+        {
+          info: 'My name is',
+        },
+      ],
+    },
+  ];
+};
+
+export default CarState;

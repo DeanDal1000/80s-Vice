@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+}
+
+.welcome {
+  justify-content: center;
+  text-align: justify;
+  background-color: lightblue;
+  margin: 2.5rem 15rem 0rem 15rem;
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
+
+.navbar {
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  color: black;
+  text-align: left;
+  min-height: 2vh;
+  padding-left: 5rem;
+  top: 0;
+  display: flex;
+  background-color: none;
+  position: sticky;
+}

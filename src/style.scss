@@ -1,12 +1,39 @@
 .container {
   display: flex;
-}
-
-.welcome {
   justify-content: center;
   text-align: justify;
   background-color: lightblue;
-  margin: 2.5rem 15rem 0rem 15rem;
+  margin: 0rem 15rem 0rem 15rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 1rem;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  display: inline-block;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: none;
+  text-decoration: underline;
+}
+
+.welcome {
   p {
     font-size: 1.5rem;
     line-height: 1.5;
@@ -22,6 +49,7 @@
   padding-left: 5rem;
   top: 0;
   display: flex;
-  background-color: none;
+  background-color: white;
   position: sticky;
+  z-index: 999;
 }

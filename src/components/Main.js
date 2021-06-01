@@ -1,9 +1,30 @@
 import React from 'react';
-import vice1 from '../vice1.png';
 
 const Main = () => {
   return (
     <div>
+      <div className="menu">
+        <ul>
+          <li>
+            <a href="">Advanced Search</a>
+          </li>
+          <li>
+            <a href="">Used Cars</a>
+          </li>
+          <li>
+            <a href="">New Cars</a>
+          </li>
+          <li>
+            <a href="">Value your Car</a>
+          </li>
+          <li>
+            <a href="">Review Vehicle </a>
+          </li>
+          <li>
+            <a href="">Insurance </a>
+          </li>
+        </ul>
+      </div>
       <div className="container">
         <div className="welcome">
           <p>

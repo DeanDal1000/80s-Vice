@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   text-align: justify;
-  background-color: lightblue;
+  background-color: none;
   margin: 0rem 15rem 0rem 15rem;
 }
 
@@ -12,6 +12,7 @@ ul {
   padding-top: 1rem;
   overflow: hidden;
   background-color: none;
+  text-align: center;
 }
 
 li {
@@ -52,4 +53,61 @@ li a:hover {
   background-color: white;
   position: sticky;
   z-index: 999;
+}
+
+.layout-container {
+  padding-top: 1rem;
+  overflow-x: hidden;
+}
+
+.frontpage {
+  position: relative;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-gap: 1px;
+  margin: 0 -16px;
+}
+
+.fp-cell {
+  background-color: #fff;
+  padding: 16px;
+}
+
+.fp-cell--1 {
+  grid-row: 1 / span 2;
+  margin-left: 20rem;
+}
+
+.fp-cell--2 {
+  grid-column: 2 / span 2;
+  margin-right: 20rem;
+}
+
+.fp-cell--3 {
+  grid-column: 2 / span 2;
+  margin-right: 20rem;
+}
+
+.fp-item {
+  background-color: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  height: 100%;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  width: 75%;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.ads {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  letter-spacing: 0.2rem;
 }

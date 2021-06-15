@@ -42,7 +42,7 @@ const CarState = () => {
       secImg: dmc2,
       url: '/mad',
       model: 'v8',
-      year: '1989',
+      year: '1982',
       previousOwner: '1',
       doors: '2 Doors',
       fuel: 'petrol',

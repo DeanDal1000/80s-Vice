@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from './Carousel';
 
 const Layout = () => {
   return (
@@ -18,6 +19,7 @@ const Layout = () => {
       </div>
       <hr />
       <div className="ads">Featured Ads</div>
+      {/* <Carousel /> */}
     </div>
   );
 };

@@ -1,9 +1,7 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
-
-import vice from '../vice.jpg';
-import vice1 from '../vice1.png';
-import vice2 from '../vice2.jpg';
+import Main from './Main';
+import Layout from './Layout';
 
 const Hero = () => {
   const styles = {
@@ -26,6 +24,8 @@ const Hero = () => {
           <div style={insideStyles}></div>
         </div>
       </Parallax>
+      <Main />
+      <Layout />
     </div>
   );
 };

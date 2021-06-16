@@ -1,5 +1,7 @@
 import React from 'react';
-import Carousel from './Carousel';
+import Knight from '../img/knight.jpg';
+import Bat from '../img/bat.jpg';
+import Mad from '../img/mad.jpg';
 
 const Layout = () => {
   return (
@@ -7,13 +9,19 @@ const Layout = () => {
       <div className="layout-container">
         <div class="frontpage">
           <div class="fp-cell fp-cell--1">
-            <div class="fp-item">1</div>
+            <div class="fp-item">
+              <img src={Knight} id="ad1" />
+            </div>
           </div>
           <div class="fp-cell fp-cell--2">
-            <div class="fp-item">2</div>
+            <div class="fp-item">
+              <img src={Bat} id="ad2" />
+            </div>
           </div>
           <div class="fp-cell fp-cell--3">
-            <div class="fp-item">3</div>
+            <div class="fp-item">
+              <img src={Mad} id="ad3" />
+            </div>
           </div>
         </div>
       </div>

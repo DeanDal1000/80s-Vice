@@ -91,7 +91,6 @@ li a:hover {
 }
 
 .fp-item {
-  background-color: #efefef;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -112,4 +111,21 @@ hr {
   text-transform: uppercase;
   padding-top: 1rem;
   letter-spacing: 0.2rem;
+}
+
+#ad1 {
+  height: 55vh;
+  width: 75vh;
+  object-fit: cover;
+}
+#ad2 {
+  height: 25vh;
+  width: 50vh;
+  object-fit: cover;
+}
+
+#ad3 {
+  height: 27vh;
+  width: 60vh;
+  object-fit: cover;
 }

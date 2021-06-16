@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Main = () => {
   return (
@@ -6,7 +7,7 @@ const Main = () => {
       <div className="menu">
         <ul>
           <li>
-            <a href="">Advanced Search</a>
+            <Link to="/cars">Vehicle Gallery</Link>
           </li>
           <li>
             <a href="">Used Cars</a>

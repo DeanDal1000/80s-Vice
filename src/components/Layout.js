@@ -27,6 +27,7 @@ const Layout = () => {
       </div>
       <hr />
       <div className="ads">Featured Ads</div>
+
       {/* <Carousel /> */}
     </div>
   );

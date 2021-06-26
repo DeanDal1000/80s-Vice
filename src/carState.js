@@ -1,4 +1,7 @@
-const CarState = () => {
+import dmc from './img/dmc.jpg';
+import dmc2 from './img/dmc2.jpg';
+
+export const CarState = () => {
   return [
     {
       make: 'DMC DeLorean',
@@ -20,8 +23,8 @@ const CarState = () => {
     },
     {
       make: 'Bat Mobile',
-      mainImg: dmc,
-      secImg: dmc2,
+      // mainImg: dmc,
+      // secImg: dmc2,
       url: '/bat',
       model: 'v8',
       year: '1989',
@@ -38,8 +41,8 @@ const CarState = () => {
     },
     {
       make: 'The Pursuit Special',
-      mainImg: dmc,
-      secImg: dmc2,
+      // mainImg: dmc,
+      // secImg: dmc2,
       url: '/mad',
       model: 'v8',
       year: '1982',

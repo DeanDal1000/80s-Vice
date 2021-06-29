@@ -10,19 +10,17 @@ export const CarState = () => {
       url: '/delorean',
       detail: 'Beautiful Classic Time Traveller',
       seller: 'Dr Emmet Brown',
-      location: 'Hill Valley',
+      location: '1640 Riverside Drive',
+      city: 'Hill Valley',
       model: 'v8',
+      price: '£50,000',
       year: '1985',
       previousOwner: '1',
       doors: '2 Gull-wing doors',
       fuel: 'plutonium',
       body: '2-door coupé',
       colour: 'Grey',
-      description: [
-        {
-          info: 'This Car can travel back in time',
-        },
-      ],
+      desc: 'Hello',
     },
     {
       make: 'Bat Mobile',

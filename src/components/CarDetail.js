@@ -19,9 +19,14 @@ const CarDetail = () => {
     <>
       {car && (
         <div>
-          <div class="card">
-            <h1>{car.make}</h1>
+          <div class="car-details">
+            <h1>
+              {car.make} ({car.year})
+            </h1>
+            <h4>{car.detail}</h4>
             <img src={car.mainImg} />
+            <hr />
+            <div className="seller">{car.seller}</div>
           </div>
         </div>
       )}

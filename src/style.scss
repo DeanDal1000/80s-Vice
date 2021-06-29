@@ -55,6 +55,7 @@ li a:hover {
   background-color: white;
   position: sticky;
   z-index: 999;
+  border-bottom: 0.5px solid black;
 
   // .cart {
   //   display: inline-block;
@@ -142,7 +143,39 @@ hr {
   padding: 1rem;
 }
 
-.vehicle {
+.car-details {
+  h1 {
+    margin-left: 25rem;
+    margin-top: 5rem;
+    justify-content: center;
+  }
+  h4 {
+    margin-left: 25rem;
+    justify-content: center;
+  }
+  img {
+    object-fit: cover;
+    width: 70vh;
+    height: 50vh;
+    margin-left: 25rem;
+  }
+  hr {
+    width: 25%;
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin-left: 1rem;
+    position: absolute;
+    display: inline-block;
+  }
+}
+
+.seller {
+  position: absolute;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 1rem;
 }
 
 .card {
@@ -152,8 +185,9 @@ hr {
   text-align: center;
   font-family: arial;
   display: inline-block;
-  margin: 1rem;
-  justify-content: space-between;
+  margin: 3rem;
+  margin-left: 6rem;
+  justify-content: center;
   img {
     object-fit: cover;
     height: 10rem;

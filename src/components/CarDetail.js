@@ -59,7 +59,8 @@ const CarDetail = () => {
                     <tr>
                       <td>Fuel</td>
                       <td>{car.fuel}</td>
-                      <td>$300</td>
+                      <td>Doors</td>
+                      <td>{car.doors}</td>
                     </tr>
                     <tr>
                       <td>Cleveland</td>

@@ -20,7 +20,7 @@ export const CarState = () => {
       fuel: 'plutonium',
       body: '2-door coupé',
       colour: 'Grey',
-      desc: 'Hello',
+      desc: 'The DeLorean time machine is a time travel device made by retrofitting a DMC DeLorean vehicle with a flux capacitor. The car requires 1.21 gigawatts of power and needs to travel 88 miles per hour to initiate time travel. ',
     },
     {
       make: 'Bat Mobile',
@@ -32,7 +32,7 @@ export const CarState = () => {
       previousOwner: '1',
       doors: '1 sliding door',
       fuel: 'Jet Fuel',
-      body: '2-door coupé',
+      body: 'Sport',
       colour: 'black',
       description: [
         {

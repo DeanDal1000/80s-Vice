@@ -42,7 +42,11 @@ const Cars = () => {
   ]);
 
   const addToCart = (item) => {
-    setCart([...cart, item]);
+    setCart([...cart, { ...item }]);
+  };
+
+  const removeCart = (removeItem) => {
+    setCart(cart.filter((item) => item !== removeItem));
   };
 
   const navigateTo = (nextPage) => {
@@ -51,7 +55,6 @@ const Cars = () => {
 
   const renderItems = () => (
     <>
-      <h1>Hello</h1>
       {items.map((item, index) => (
         <div class="col">
           <div class="card" key={index}>
@@ -75,25 +78,30 @@ const Cars = () => {
           </div>
         </div>
       ))}
-      ;
     </>
   );
 
   const renderCart = () => (
     <>
-      <h1>Cart</h1>;
-      {items.map((item, index) => (
+      <h1>Cart</h1>
+      {cart.map((item, index) => (
         <div class="col">
           <div class="card" key={index}>
             <img src={dmc} class="card-img-top" alt="dmc" />
             <div class="card-body">
               <h5 class="card-title">{item.name}</h5>
               <p class="card-text">{item.cost}</p>
+              <button
+                onClick={() => removeCart(item)}
+                type="button"
+                class="btn btn-secondary btn-lg"
+              >
+                Remove from Cart
+              </button>
             </div>
           </div>
         </div>
       ))}
-      ;
     </>
   );
 
@@ -216,6 +224,7 @@ const Cars = () => {
         <div class="row row-cols-1 row-cols-md-4 g-4">
           {page === PAGE_ITEMS && renderItems()}
           {page === PAGE_CART && renderCart()}
+
           <>
             {/* {items.map((item, index) => (
                 <div class="col">

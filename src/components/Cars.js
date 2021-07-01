@@ -41,24 +41,28 @@ const Cars = () => {
     },
   ]);
 
+  //Function to Add Cars to Cart
   const addToCart = (item) => {
     setCart([...cart, { ...item }]);
   };
 
+  //Function to Remove Cars to Cart
   const removeCart = (removeItem) => {
     setCart(cart.filter((item) => item !== removeItem));
   };
 
+  //Function to Navigate to Cart Page
   const navigateTo = (nextPage) => {
     setPage(nextPage);
   };
 
+  //Render Cars Function
   const renderItems = () => (
     <>
       {items.map((item, index) => (
         <div class="col">
           <div class="card" key={index}>
-            <img src={dmc} class="card-img-top" alt="dmc" />
+            <img src={item.image} class="card-img-top" alt="dmc" />
             <div class="card-body">
               <h5 class="card-title">{item.name}</h5>
               <p class="card-text">{item.cost}</p>
@@ -87,7 +91,7 @@ const Cars = () => {
       {cart.map((item, index) => (
         <div class="col">
           <div class="card" key={index}>
-            <img src={dmc} class="card-img-top" alt="dmc" />
+            <img src={item.image} class="card-img-top" alt="dmc" />
             <div class="card-body">
               <h5 class="card-title">{item.name}</h5>
               <p class="card-text">{item.cost}</p>

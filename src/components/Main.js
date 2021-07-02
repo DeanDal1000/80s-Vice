@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import Knight from '../img/knight.jpg';
 import Bat from '../img/bat.jpg';
 import Mad from '../img/mad.jpg';
+import retro from '../img/retro.png';
+import retro2 from '../img/retro2.png';
 
 const Main = () => {
   return (
@@ -30,9 +32,10 @@ const Main = () => {
         </ul>
       </div> */}
       <div className="container">
-        {/* <div className="welcome">
-          <p></p>
-        </div> */}
+        <div className="welcome">
+          <img src={retro} alt={retro} />
+          <p>80's Movie Vehicles</p>
+        </div>
       </div>
     </div>
   );

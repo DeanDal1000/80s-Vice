@@ -2,6 +2,7 @@ import React from 'react';
 import Knight from '../img/knight.jpg';
 import Bat from '../img/bat.jpg';
 import Mad from '../img/mad.jpg';
+import Slider from './Slider';
 
 const Layout = () => {
   return (
@@ -27,6 +28,7 @@ const Layout = () => {
       </div>
       <hr />
       <div className="ads">Featured Ads</div> */}
+      <Slider />
     </div>
   );
 };

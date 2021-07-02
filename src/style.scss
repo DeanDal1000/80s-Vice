@@ -6,10 +6,13 @@ body {
 
 .container {
   display: flex;
-  justify-content: center;
-  text-align: justify;
   background-color: none;
+  text-align: center;
   margin: 0rem 15rem 0rem 15rem;
+  img {
+    margin-top: 5rem;
+    margin-left: 30rem;
+  }
 }
 
 ul {
@@ -49,10 +52,13 @@ li a:hover {
 
 .welcome {
   p {
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 1.5;
-    margin-left: 5rem;
+    margin-left: 15rem;
     width: 100%;
+    margin-top: 2rem;
+    font-family: 'Oswald', Sans-serif;
+    text-transform: uppercase;
   }
 }
 
@@ -277,4 +283,15 @@ hr {
 
 .card button:hover {
   opacity: 0.7;
+}
+
+.carousel {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  justify-content: center;
+  img {
+    width: 50rem;
+    text-align: center;
+  }
 }

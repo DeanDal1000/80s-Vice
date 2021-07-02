@@ -120,7 +120,7 @@ const Cars = () => {
           </div>
         </div>
       </Parallax>{' '}
-      <div className="menu">
+      {/* <div className="menu">
         <ul>
           <li>
             <Link to="/cars">Vehicle Gallery</Link>
@@ -141,7 +141,7 @@ const Cars = () => {
             <a href="">Insurance </a>
           </li>
         </ul>
-      </div>
+      </div> */}
       <div className="gallery">
         {/* <div class="row row-cols-1 row-cols-md-4 g-4">
           <div class="col">

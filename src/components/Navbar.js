@@ -1,18 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../img/logo.png';
 
-import { FaShoppingCart } from 'react-icons/fa';
 const Navbar = () => {
   return (
     <div className="navbar">
       <Link id="logo" to="/">
-        <h1>Motor</h1>
-        {/* <div className="cart">
-          <Link to="/cart">
-            <FaShoppingCart />
-          </Link>
-        </div> */}
+        <img src={logo} alt={logo} />
       </Link>
+      <ul>
+        <li>
+          <Link to="/cars">Car Gallery</Link>
+        </li>
+        <li>
+          <Link to="/cars">Bike Gallery</Link>
+        </li>
+      </ul>
     </div>
   );
 };

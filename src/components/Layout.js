@@ -6,7 +6,7 @@ import Mad from '../img/mad.jpg';
 const Layout = () => {
   return (
     <div>
-      <div className="layout-container">
+      {/* <div className="layout-container">
         <div class="frontpage">
           <div class="fp-cell fp-cell--1">
             <div class="fp-item">
@@ -26,9 +26,7 @@ const Layout = () => {
         </div>
       </div>
       <hr />
-      <div className="ads">Featured Ads</div>
-
-      {/* <Carousel /> */}
+      <div className="ads">Featured Ads</div> */}
     </div>
   );
 };

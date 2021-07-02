@@ -30,13 +30,13 @@ const Cars = () => {
     {
       name: 'DMC Delorean',
       cost: '£50,000',
-      image: { dmc },
+      image: dmc,
       url: '/delorean',
     },
     {
       name: 'Batmobile',
       cost: '£500,000',
-      image: { bat },
+      image: bat,
       url: '/bat',
     },
   ]);
@@ -62,7 +62,7 @@ const Cars = () => {
       {items.map((item, index) => (
         <div class="col">
           <div class="card" key={index}>
-            <img src={item.image} class="card-img-top" alt="dmc" />
+            <img src={item.image} class="card-img-top" alt={item.image} />
             <div class="card-body">
               <h5 class="card-title">{item.name}</h5>
               <p class="card-text">{item.cost}</p>
@@ -91,7 +91,7 @@ const Cars = () => {
       {cart.map((item, index) => (
         <div class="col">
           <div class="card" key={index}>
-            <img src={item.image} class="card-img-top" alt="dmc" />
+            <img src={item.image} class="card-img-top" alt={item.image} />
             <div class="card-body">
               <h5 class="card-title">{item.name}</h5>
               <p class="card-text">{item.cost}</p>

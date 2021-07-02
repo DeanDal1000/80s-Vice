@@ -1,5 +1,9 @@
 @import 'react-alice-carousel/lib/scss/alice-carousel.scss';
 
+body {
+  background-color: #f4debe;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -12,15 +16,21 @@ ul {
   list-style-type: none;
   margin: 0;
   padding-top: 1rem;
+  text-decoration: none;
   overflow: hidden;
   background-color: none;
-  text-align: center;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: 'Oswald', Sans-serif;
+  text-transform: uppercase;
+  padding-left: 60rem;
 }
 
 li {
   display: inline-block;
   justify-content: space-between;
   margin: 1rem;
+  text-decoration: none;
 }
 
 li a {
@@ -34,13 +44,15 @@ li a {
 li a:hover {
   background-color: none;
   text-decoration: underline;
+  color: black;
 }
 
 .welcome {
   p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 1.5;
     margin-left: 5rem;
+    width: 100%;
   }
 }
 
@@ -48,19 +60,22 @@ li a:hover {
   letter-spacing: 0.5rem;
   text-transform: uppercase;
   color: black;
-  text-align: left;
-  min-height: 2vh;
+  min-height: 10vh;
   padding-left: 5rem;
   top: 0;
   display: flex;
   background-color: white;
   position: sticky;
   z-index: 999;
-  border-bottom: 0.5px solid black;
+
+  // border-bottom: 0.5px solid black;
 
   #logo {
     text-decoration: none;
-    color: #f3a4a7;
+    color: black;
+    img {
+      width: 10rem;
+    }
   }
   // .cart {
   //   display: inline-block;

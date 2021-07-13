@@ -11,7 +11,7 @@ body {
   margin: 0rem 15rem 0rem 15rem;
   img {
     margin-top: 5rem;
-    margin-left: 30rem;
+    margin-left: 32rem;
   }
 }
 
@@ -54,7 +54,7 @@ li a:hover {
   p {
     font-size: 2rem;
     line-height: 1.5;
-    margin-left: 15rem;
+    margin-left: 15.5rem;
     width: 100%;
     margin-top: 2rem;
     font-family: 'Oswald', Sans-serif;
@@ -103,34 +103,6 @@ li a:hover {
   grid-template-columns: 3fr 1fr 1fr;
   grid-gap: 1px;
   margin: 0 -16px;
-}
-
-.fp-cell {
-  background-color: #fff;
-  padding: 16px;
-}
-
-.fp-cell--1 {
-  grid-row: 1 / span 2;
-  margin-left: 20rem;
-}
-
-.fp-cell--2 {
-  grid-column: 2 / span 2;
-  margin-right: 20rem;
-}
-
-.fp-cell--3 {
-  grid-column: 2 / span 2;
-  margin-right: 20rem;
-}
-
-.fp-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 200px;
-  height: 100%;
 }
 
 hr {
@@ -255,6 +227,9 @@ hr {
   h5 {
     font-size: 1.5rem;
   }
+  img {
+    height: 20vh;
+  }
 }
 
 .card-text {
@@ -290,8 +265,69 @@ hr {
   height: 50%;
   text-align: center;
   justify-content: center;
+  margin-left: 28rem;
+  border: 10px solid white;
+}
+
+.carousel-item {
   img {
-    width: 50rem;
+    width: 40vh;
+    height: 40vh;
+    object-fit: cover;
     text-align: center;
   }
+}
+
+.carousel-control-prev-icon {
+  margin-right: 6rem;
+  height: 5rem;
+  width: 10rem;
+  border-radius: 0 150px 150px 0;
+  // background-color: white;
+  overflow: hidden;
+  display: none;
+
+  // &:hover {
+  //   background-color: whitesmoke;
+  // }
+}
+
+.carousel-control-next-icon {
+  margin-right: 6rem;
+  height: 5rem;
+  width: 10rem;
+  border-radius: 0 150px 150px 0;
+  // background-color: white;
+  overflow: hidden;
+  display: none;
+
+  // &:hover {
+  //   background-color: whitesmoke;
+  // }
+}
+
+.about {
+  background-color: #b78763;
+  margin-top: 5rem;
+  img {
+    text-align: center;
+    margin-left: 48rem;
+    margin-top: 5rem;
+  }
+  .about-container {
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0 10rem 0 2rem;
+  }
+}
+
+.fa-car,
+.fa-motorcycle,
+.fa-car-crash {
+  color: black;
+  font-size: 3rem;
+  margin: 1rem;
 }

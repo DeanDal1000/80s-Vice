@@ -1,5 +1,8 @@
 import dmc from './img/dmc.jpg';
 import dmc2 from './img/dmc2.jpg';
+import bat1 from './img/bat1.jpg';
+import mad1 from './img/mad1.jpg';
+import knight1 from './img/knight1.jpg';
 
 export const CarState = () => {
   return [
@@ -24,39 +27,57 @@ export const CarState = () => {
     },
     {
       make: 'Bat Mobile',
-      // mainImg: dmc,
-      // secImg: dmc2,
+      mainImg: bat1,
+      secImg: dmc2,
       url: '/bat',
+      city: 'Gotham',
+      location: 'Batcave',
       model: 'v8',
+      seller: 'Alfred Pennyworth',
+      detail: 'Built to absorb and redistribute the shock of any impact.',
       year: '1989',
       previousOwner: '1',
       doors: '1 sliding door',
       fuel: 'Jet Fuel',
       body: 'Sport',
       colour: 'black',
-      description: [
-        {
-          info: 'Its the Bat Mobile!',
-        },
-      ],
+      desc: 'Housed in the Batcave, which it accesses through a hidden entrance, the Batmobile is both a heavily armored tactical assault vehicle and a personalized custom-built pursuit and capture vehicle that is used by Batman in his fight against crime.',
     },
     {
       make: 'The Pursuit Special',
-      // mainImg: dmc,
-      // secImg: dmc2,
+      mainImg: mad1,
+      secImg: dmc2,
       url: '/mad',
+      city: 'Melbourne, Victoria',
+      location: 'Desert',
       model: 'v8',
+      detail: 'Black on Black',
+      seller: 'Max Rockatansky',
       year: '1982',
       previousOwner: '1',
       doors: '2 Doors',
       fuel: 'petrol',
       body: 'Interceptor',
       colour: 'black',
-      description: [
-        {
-          info: 'My name is',
-        },
-      ],
+      desc: 'The Pursuit Special, also referred to as the Last of the V8 Interceptors, is the iconic black GT Falcon muscle car featuring a distinctive supercharger ',
+    },
+    {
+      make: 'Knight Rider',
+      mainImg: knight1,
+      secImg: dmc2,
+      url: '/knight',
+      city: 'Melbourne, Victoria',
+      location: 'Desert',
+      model: 'v8',
+      detail: 'K.I.T.T',
+      seller: 'Michael Knight',
+      year: '1982',
+      previousOwner: '1',
+      doors: '2 Doors',
+      fuel: 'petrol',
+      body: 'Interceptor',
+      colour: 'black',
+      desc: 'The Pursuit Special, also referred to as the Last of the V8 Interceptors, is the iconic black GT Falcon muscle car featuring a distinctive supercharger ',
     },
   ];
 };

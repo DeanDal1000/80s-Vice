@@ -4,6 +4,8 @@ import { Parallax } from 'react-parallax';
 import { Card, Button, Container, Row, CardDeck } from 'react-bootstrap';
 import dmc from '../img/dmc.jpg';
 import bat from '../img/bat1.jpg';
+import mad from '../img/mad1.jpg';
+import knight from '../img/knight1.jpg';
 
 const PAGE_ITEMS = 'items';
 const PAGE_CART = 'cart';
@@ -29,7 +31,7 @@ const Cars = () => {
   const [items] = useState([
     {
       name: 'DMC Delorean',
-      cost: '£50,000',
+      cost: '£100,000',
       image: dmc,
       url: '/delorean',
     },
@@ -38,6 +40,18 @@ const Cars = () => {
       cost: '£500,000',
       image: bat,
       url: '/bat',
+    },
+    {
+      name: 'The Pursuit Special',
+      cost: '£50,000',
+      image: mad,
+      url: '/mad',
+    },
+    {
+      name: 'Knight Rider',
+      cost: '£700,000',
+      image: knight,
+      url: '/knight',
     },
   ]);
 

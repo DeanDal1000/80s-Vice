@@ -53,6 +53,12 @@ const Cars = () => {
       image: knight,
       url: '/knight',
     },
+    {
+      name: 'Christine',
+      cost: '£700,000',
+      image: knight,
+      url: '/christine',
+    },
   ]);
 
   //Function to Add Cars to Cart

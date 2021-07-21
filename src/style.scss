@@ -217,8 +217,8 @@ hr {
   max-width: 300px;
   margin: auto;
   text-align: center;
-  font-family: arial;
-  height: 100%;
+  font-family: 'Oswald', Sans-serif;
+  height: 75%;
   margin: 3rem;
   margin-left: 6rem;
   display: inline-block;
@@ -257,7 +257,8 @@ hr {
 }
 
 .card button:hover {
-  opacity: 0.7;
+  opacity: 1;
+  background-color: #000;
 }
 
 .carousel {
@@ -330,4 +331,17 @@ hr {
   color: black;
   font-size: 3rem;
   margin: 1rem;
+}
+
+.vehicle-data {
+  margin-bottom: 1rem;
+}
+.tabs {
+  background-color: white;
+  border-radius: 5%;
+}
+.table-data {
+  border: 1px solid #000;
+  background-color: white;
+  font-family: 'Oswald', Sans-serif;
 }

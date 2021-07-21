@@ -79,6 +79,24 @@ export const CarState = () => {
       colour: 'black',
       desc: 'The Pursuit Special, also referred to as the Last of the V8 Interceptors, is the iconic black GT Falcon muscle car featuring a distinctive supercharger ',
     },
+    {
+      make: 'Christine',
+      mainImg: knight1,
+      secImg: dmc2,
+      url: '/christine',
+      city: 'Melbourne, Victoria',
+      location: 'Desert',
+      model: 'v8',
+      detail: 'K.I.T.T',
+      seller: 'Michael Knight',
+      year: '1982',
+      previousOwner: '1',
+      doors: '2 Doors',
+      fuel: 'petrol',
+      body: 'Interceptor',
+      colour: 'black',
+      desc: 'The Pursuit Special, also referred to as the Last of the V8 Interceptors, is the iconic black GT Falcon muscle car featuring a distinctive supercharger ',
+    },
   ];
 };
 

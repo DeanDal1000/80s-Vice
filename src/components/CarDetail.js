@@ -35,9 +35,13 @@ const CarDetail = () => {
               <button>Contact Seller</button>
             </div>
             <div className="vehicle-data">
-              <Tabs defaultActiveKey="home" id="uncontrolled-tab-example">
-                <Tab eventKey="home" title="Vehicle Data">
-                  <table>
+              <Tabs
+                classnName="tabs"
+                defaultActiveKey="home"
+                id="uncontrolled-tab-example"
+              >
+                <Tab className="tab" eventKey="home" title="Vehicle Data">
+                  <table className="table-data">
                     <tr>
                       <td>Make</td>
                       <td>{car.make}</td>
